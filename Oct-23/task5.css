@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(174, 85, 222);
+}
+.div1 div{
+    background-color: aliceblue;
+    width: 200px;
+    height: 100px;
+    float:left;
+    margin-left: 25px}
+
+    .div1 div{
+        overflow: hidden;
+        margin-top: 50px;
+    }
+
+    .scroll{
+        height: 80px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        overflow: auto;
+        clear: both;

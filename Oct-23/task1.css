@@ -1,0 +1,14 @@
+
+.divo{
+    color: chocolate;
+}
+.span{
+    font-weight: bold;
+}
+.pic{
+    background-size: 500px 200px;
+}
+.thep{
+    background-image: url("img.jpg");
+    color: aliceblue;
+    height: 100px;}
