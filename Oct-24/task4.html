@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .main{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-rows:10% 70% 30%;
+            height: 100vh;
+            gap: 15px;
+        }
+        .box1,.box4 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+    </style>
+
 </head>
 <body>
-   <div>
-    <div style=" background-color: black;"></div>
-    <div style=" background-color: yellow;"></div>\
+   <div class="main">
+    <div style=" background-color: black;" class="box1"></div>
+    <div style=" background-color: yellow;"></div>
     <div style=" background-color: green;"></div>
-    <div style=" background-color: blue;"></div>
+    <div style=" background-color: blue;" class="box4"></div>
    </div> 
 </body>
 </html>
