@@ -1,0 +1,29 @@
+.parent-div{
+    
+    border: 1px solid black;
+    width: 97vw;
+}
+.child-div{
+    display: inline-block;
+    width: 23%;
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .parent-div{
+
+    }
+    .child-div{
+        width: 48%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 480px){
+    .parent-div{
+        
+    }
+    .child-div{
+        width: 90%;
+    }
+}

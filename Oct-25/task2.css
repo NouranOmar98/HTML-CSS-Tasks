@@ -1,0 +1,17 @@
+.parent img{
+    width:33%;
+    height:350px ;
+}
+@media screen and (min-width: 481px) and (max-width: 768px)
+{.parent img{
+    height:350px ;  
+    width: calc(50% - 25px);
+    margin: 10px;
+}
+}
+
+    @media screen and (min-width: 0px) and (max-width: 480px)
+    {.parent img{
+        height:350px ;  
+        width: calc(100% - 25px);
+        margin: 10px;}}

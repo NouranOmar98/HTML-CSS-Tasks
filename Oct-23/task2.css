@@ -4,13 +4,14 @@
 }
 .p1{background-color: aliceblue;
     border-style: solid;
-    width: 1000px;
     height: 250px;
     padding: 10px;
     margin: 10px;
 
 }
 body{ background-color: beige;
+    width: 100%;
+
 
 }
 .c1{
@@ -23,7 +24,6 @@ background-color: yellow;
 .p2{background-color: aliceblue;
     border-style: dotted;
     border-color: red;
-    width: 1000px;
     height: 250px;
     padding: 10px;
     margin: 10px;}
