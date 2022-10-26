@@ -19,6 +19,20 @@
             color: white;
             font-weight: bold;
         }
+        @media (min-width:481px) and (max-width:768px){
+            .main {
+                grid-template-columns: auto auto ;
+                grid-template-rows: repeat(5,220px) ;
+            }
+        }
+        @media (min-width:0px) and (max-width:480px){
+            .main {
+                grid-template-columns: auto  ;
+                grid-template-rows: repeat(10,220px) ;
+            }
+        }
+        
+
     </style>
 </head>
 <body>
